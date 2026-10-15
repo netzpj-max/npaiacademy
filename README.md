@@ -14,6 +14,8 @@ academy-page.js synchronizes the hero, signup card, mobile bar, booking dialog a
 
 The original instructor-supplied PromptPay QR remains unchanged and is displayed during the 990-THB offer only. After expiry, regular-price registration directs the learner to the instructor for payment information for 1,990 THB. Slips paid before expiry are reviewed by the instructor using their actual payment time.
 
+The original logo, portrait and payment QR are separate static assets so the browser can render page content before those images finish loading. Their bytes are unchanged.
+
 ## Registration and privacy
 
 The form collects name, email, phone and a local slip preview, prepares a message for copying, and offers a link to https://m.me/netz. The learner must paste the message, attach the original slip and send it themselves. This page does not upload a slip, automatically send messages, verify bank payments, grant credits or enroll a learner.
@@ -22,7 +24,7 @@ Form data is not persisted in browser storage and is cleared on closing the dial
 
 ## Files
 
-- index.html: static page and public catalog cards; original visual assets embedded.
+- index.html: static page and public catalog cards; original visual assets referenced from assets/.
 - academy-updates.css: catalog and countdown styles.
 - academy-page.js: countdown and registration interactions.
 - offer.js: pure campaign validation and time/price calculations.
