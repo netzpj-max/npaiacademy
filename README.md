@@ -1,20 +1,32 @@
 # NPAi Academy
 
-Public course introduction and Early Bird registration landing page.
+Public course introduction and registration landing page, served from the root of main by GitHub Pages.
 
-- Early Bird: 990 THB; regular price: 1,590 THB.
-- Course delivery: 12 October 2026, 08:00 Asia/Bangkok (UTC+7).
-- Curriculum: ChatGPT Desktop setup, reference plans and 3D SketchUp, CAD prompting, revisions and drawing review.
-- Extra: NPAiRENDER rendering lesson plus 200 credits.
+## Course catalog
 
-## Registration
+The page includes the current public Academy catalog: CAD and BIM 4D / Web Viewer are open; Free Web Hosting and 13 other courses are Coming Soon. The static metadata snapshot is in courses.json. Coming Soon cards do not have lesson links or invented release dates. Protected lesson content is not included here.
 
-The booking dialog displays the instructor-supplied original PromptPay QR and collects name, email, phone and a local slip preview. It prepares a booking message for copying and opens https://m.me/netz. The learner must paste the message, attach the original slip and send it in Messenger. The page does not upload a slip, send messages automatically, verify bank payments or confirm enrollments.
+## Promotion
 
-Form information is not persisted in browser storage and is cleared when the dialog closes. QR download preserves the supplied image bytes. No example student data is embedded in production.
+offer.json defines one absolute 10-hour campaign window shared by all visitors. offer.js computes the current price: 990 THB during the window, 1,990 THB afterward. Refreshing or revisiting does not restart the campaign. Set the campaign window once when publishing an explicitly authorized offer; do not regenerate it on page load or an unrelated deployment.
 
-## Hosting and assets
+academy-page.js synchronizes the hero, signup card, mobile bar, booking dialog and prepared Messenger message. Expiry while the dialog is open invalidates an old prepared message and shows the new amount. A config-load failure keeps registration disabled and asks the visitor to refresh or contact the instructor.
 
-GitHub Pages serves the root of main. All visual assets are embedded in index.html. No Supabase authentication, payment webhook or protected course content is deployed here.
+The original instructor-supplied PromptPay QR remains unchanged and is displayed during the 990-THB offer only. After expiry, regular-price registration directs the learner to the instructor for payment information for 1,990 THB. Slips paid before expiry are reviewed by the instructor using their actual payment time.
 
-The instructor photo is the AI-assisted portrait approved by the instructor. The plan visual is a workflow illustration, not evidence of a completed CAD deliverable. Original CAD Prompt Creator source remains in the local development workspace; this public page is the course introduction.
+## Registration and privacy
+
+The form collects name, email, phone and a local slip preview, prepares a message for copying, and offers a link to https://m.me/netz. The learner must paste the message, attach the original slip and send it themselves. This page does not upload a slip, automatically send messages, verify bank payments, grant credits or enroll a learner.
+
+Form data is not persisted in browser storage and is cleared on closing the dialog. The supplied logo, portrait, original QR image and QR download bytes are preserved. No example learner data is embedded in production.
+
+## Files
+
+- index.html: static page and public catalog cards; original visual assets embedded.
+- academy-updates.css: catalog and countdown styles.
+- academy-page.js: countdown and registration interactions.
+- offer.js: pure campaign validation and time/price calculations.
+- offer.json: campaign start/end and approved prices.
+- courses.json: public catalog snapshot.
+
+No Supabase authentication, payment webhook, provider secret or protected course content is deployed here. Real lesson access remains at https://app.npairender.com/academy/.

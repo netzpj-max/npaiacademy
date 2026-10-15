@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "cad-chatgpt-desktop",
+    "title": "สร้าง 2D CAD ด้วย ChatGPT Desktop",
+    "description": "จากภาพแบบแปลนอ้างอิงและโมเดล 3D SketchUp",
+    "status": "scheduled",
+    "opens_at": "2026-10-12 11:00:00+00",
+    "display_order": 0
+  },
+  {
+    "slug": "cad-prompt-master",
+    "title": "CAD Prompt Creator — เปลี่ยนโจทย์เป็นพรอมป์ต์เขียนแบบ",
+    "description": "เตรียมแบบอ้างอิง ระยะ หน่วย และรูปแบบงาน แล้วสร้างพรอมป์ต์สำหรับให้ AI ช่วยเขียนแบบ พร้อมตรวจผลกับข้อมูลต้นฉบับ",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 1
+  },
+  {
+    "slug": "sketchup-model-organization",
+    "title": "NP Sketch — ขึ้นโมเดลสถาปัตยกรรมบน Blender",
+    "description": "ฝึกวาดตามระยะ ใช้ Snap, Push/Pull, Offset และ Follow Me พร้อมจัดกลุ่มโมเดล ใส่มิติ และส่งออก PDF ตามขอบเขตรุ่น Preview",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 2
+  },
+  {
+    "slug": "model-to-presentation-drawings",
+    "title": "SketchUp to NPAiRENDER — เตรียมโมเดลแล้วเรนเดอร์ผ่านปลั๊กอิน",
+    "description": "จัด Groups, Components, Tags และ Scenes ตั้งมุมกล้อง แล้วใช้ NPAiRENDER for SketchUp จับภาพโมเดลเพื่อสร้างภาพนำเสนอ",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 3
+  },
+  {
+    "slug": "ai-render-npairender",
+    "title": "NPAiRENDER — จากแบบและโมเดลสู่ภาพขายงาน",
+    "description": "ใช้ภาพแบบหรือโมเดลสร้างภาพ Interior และ Exterior เลือก Preset และเขียน Custom Prompt พร้อมตรวจรูปทรงและองค์ประกอบให้ตรงกับโจทย์",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 4
+  },
+  {
+    "slug": "material-lighting-ai",
+    "title": "Canvas Material — เลือกพื้นผิว เปลี่ยนวัสดุ และปรับบรรยากาศ",
+    "description": "เลือกพื้นที่บนภาพก่อนสั่งเปลี่ยนวัสดุ ทดลองสีและแสง แล้วเปรียบเทียบผลกับส่วนของแบบที่ต้องรักษาไว้",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 5
+  },
+  {
+    "slug": "ai-interior-existing-room",
+    "title": "AI Interior Renovation — ออกแบบห้องใหม่จากภาพห้องเดิม",
+    "description": "วิเคราะห์พื้นที่และข้อจำกัด ใช้ภาพอ้างอิงกำหนดสไตล์ แล้วสร้างตัวเลือกวัสดุ เฟอร์นิเจอร์ และบรรยากาศสำหรับคุยกับลูกค้า",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 6
+  },
+  {
+    "slug": "archicad-bim-data-mcp",
+    "title": "Image & Video Enhance — ยกระดับภาพและสื่อก่อนส่งงาน",
+    "description": "ฝึกปรับสี แสง และความคมชัดด้วย Image Enhance ตรวจภาพก่อน–หลัง และเรียนรู้ workflow ของ Video Enhance ตามรุ่นที่เปิดให้ใช้งาน",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 7
+  },
+  {
+    "slug": "model-to-boq-excel",
+    "title": "NP BOQ Control — จากแบบและเอกสารสู่ BOQ ฉบับตรวจทาน",
+    "description": "จัดข้อมูลโครงการ ใช้ AI ช่วยเตรียมรายการ BOQ ตรวจหมวดงาน ปริมาณ หน่วย และราคา แล้วแก้ไขและส่งออก Excel สำหรับตรวจทานต่อ",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 8
+  },
+  {
+    "slug": "4d-bim-construction-schedule",
+    "title": "3D Viewer & Panorama — พาลูกค้าเข้าใจพื้นที่ก่อนตัดสินใจ",
+    "description": "เปิดโมเดล 3D/IFC จัดมุมและบันทึกภาพอ้างอิง พร้อมใช้ภาพ Panorama 360° อธิบายพื้นที่และแนวทางออกแบบ",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 9
+  },
+  {
+    "slug": "ai-project-presentation",
+    "title": "AI Presentation — รวมแบบ ภาพเรนเดอร์ และวัสดุเป็นชุดขายงาน",
+    "description": "ใช้ Custom Prompt, Moodboard และเครื่องมือเอกสารของ NPAiRENDER จัดแนวคิด ภาพ และรายละเอียดเป็นชุดนำเสนอลูกค้า",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 10
+  },
+  {
+    "slug": "ai-client-feedback-revisions",
+    "title": "Canvas & Smart Layers — แก้ภาพตามฟีดแบ็กอย่างเป็นระบบ",
+    "description": "แปลงความคิดเห็นลูกค้าเป็นรายการแก้ไข ใช้ Pin Edit และ Smart Layers กับงานที่เหมาะสม พร้อมเก็บเวอร์ชันและเปรียบเทียบก่อน–หลัง",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 11
+  },
+  {
+    "slug": "ai-house-capstone",
+    "title": "โปรเจกต์จบ: บ้านหนึ่งหลังด้วยเครื่องมือ NPAi",
+    "description": "เชื่อม CAD Prompt Creator → SketchUp หรือ NP Sketch → NPAiRENDER → BOQ ฉบับตรวจทาน → ชุดนำเสนอ พร้อมจัดไฟล์และบันทึกสิ่งที่แก้ไข",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 12
+  },
+  {
+    "slug": "3d-modeling-studio-ai-agent",
+    "title": "3D Modeling Studio — สร้างโมเดล SketchUp ด้วยทีม AI Agent",
+    "description": "เตรียมแบบภาพ/PDF และมิติ ให้ทีม AI ช่วยอ่านแบบ วาง Model Plan สร้างและตรวจไฟล์ .skp จัด Groups, Tags และ Scenes พร้อมฝึกต่อยอดข้อมูล BIM ปริมาณ แผนงาน 4D และต้นทุน 5D ตามขอบเขตรุ่นนำร่อง",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 13
+  },
+  {
+    "slug": "building-drawings-to-ai-web",
+    "title": "จากชุดแบบอาคาร สู่เว็บดูโมเดลด้วย AI",
+    "description": "ให้ AI อ่านชุดแบบ สร้างโมเดล เปิดดูในเว็บ แก้ไขจากภาพ และจัดไฟล์สำหรับนำไปทำงานต่อ · ผู้เริ่มต้น · อ่านแล้วทำตาม 8 ขั้น",
+    "status": "published",
+    "opens_at": "2026-10-15 02:52:02.593774+00",
+    "display_order": 14
+  },
+  {
+    "slug": "ai-webapp-free-hosting",
+    "title": "วิธีการนำ webapp ที่เจนได้จาก AI ขึ้น Free web hosting",
+    "description": "สมัครบริการ Free Web Hosting เตรียมโปรเจกต์ และสั่ง AI ช่วยจัดไฟล์ ตั้งค่า และเผยแพร่ Webapp จนได้ลิงก์ Public ที่ทุกคนเปิดดูได้ พร้อมตรวจการเข้าถึงจากอุปกรณ์อื่น",
+    "status": "coming_soon",
+    "opens_at": null,
+    "display_order": 15
+  }
+]
