@@ -23,7 +23,7 @@ if(carousel){
  carousel.addEventListener('focusout',event=>{if(!carousel.contains(event.relatedTarget)){interacting=false;start();}});
  document.addEventListener('visibilitychange',start);
  motion.addEventListener('change',event=>{if(event.matches){paused=true;pauseLabel();start();}});
- expand.addEventListener('click',()=>{const image=slides[index].querySelector('img');fullImage.src=image.src;fullImage.alt=image.alt;dialogTitle.textContent=slides[index].dataset.title;dialog.showModal();document.body.classList.add('modal-open');stop();});
+ expand.addEventListener('click',()=>{const image=slides[index].querySelector('img');fullImage.src=image.dataset.fullSrc||image.src;fullImage.alt=image.alt;dialogTitle.textContent=slides[index].dataset.title;dialog.showModal();document.body.classList.add('modal-open');stop();});
  dialog.querySelector('[data-showcase-close]').addEventListener('click',()=>dialog.close());
  dialog.addEventListener('click',event=>{if(event.target===dialog){const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();}});
  dialog.addEventListener('close',()=>{document.body.classList.remove('modal-open');expand.focus();start();});
